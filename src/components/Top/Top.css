@@ -1,0 +1,71 @@
+.TopBar {
+  background-color: rgba(0, 0, 0, 0.678);
+  color: rgb(255, 255, 255);
+  z-index: 5;
+  width: 100%;
+  position: fixed;
+  pointer-events: all;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 0;
+}
+
+.menu .opened {
+  display: block;
+}
+
+.menu .hidden {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+
+.NavSmallViewPort {
+  position: absolute;
+  flex-direction: column;
+  color: black;
+  background-color: rgba(238, 236, 236, 0.925);
+  border-radius: 12px;
+  height: 100vw;
+  width: 70%;
+  top: 4.5rem;
+  right: 0rem;
+}

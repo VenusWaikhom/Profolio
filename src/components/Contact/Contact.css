@@ -1,0 +1,35 @@
+#Contact-Wrapper {
+  z-index: 3 !important;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 100%;
+  background-color: #535353;
+  gap: 4rem;
+}
+
+.Contact-Text {
+  font-size: 1.2rem;
+}
+
+.Contact-Icons-Wrapper {
+  gap: 2rem;
+}
+
+.Contact-Icon-Wrapper {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.Contact-Icon {
+  height: 2rem;
+  width: 2rem;
+  transition: transform 0.5s;
+}
+
+.Contact-Icon:hover {
+  transform: scale(1.4);
+}

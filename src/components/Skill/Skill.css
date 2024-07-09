@@ -1,0 +1,83 @@
+.Skill-Header {
+  position: relative !important;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: ui-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 4rem;
+}
+
+.Skills-Wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.SkillChartWrapper {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Skill-Logo-Wrapper {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+}
+
+.Skill-Logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 12px;
+}
+
+.Skill-Level {
+  height: 1rem;
+  width: 25rem;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(102, 100, 100);
+}
+
+.Skill-Level-HTML {
+  background-color: #e34c26;
+}
+
+.Skill-Level-CSS {
+  background-color: #264de4;
+}
+
+.Skill-Level-Javascript {
+  background-color: #f0db4f;
+}
+
+.Skill-Level-React {
+  background-color: #61dbfb;
+}
+
+.Skill-Level-NodeJS {
+  background-color: #3c873a;
+}
+
+.Skill-Level-MongoDB {
+  background-color: #3c873a;
+}
+
+.Skill-Level-Python {
+  background-color: #0b5d83;
+}
+
+.Skill-Level > div {
+  transition: width 1s ease-in-out;
+  height: 100%;
+  width: 0;
+}

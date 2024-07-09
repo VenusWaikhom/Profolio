@@ -1,0 +1,168 @@
+/* Screens= ....-480,482-766,768-1050,1050-.... */
+body {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  pointer-events: auto;
+}
+
+.Headers {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.p-n {
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .Background {
+    pointer-events: none !important;
+  }
+
+  canvas {
+    pointer-events: none !important;
+  }
+
+  #HomeWrapper {
+    flex-direction: column-reverse;
+  }
+
+  .MainHeader {
+    font-size: 1.2rem !important;
+  }
+
+  .ImageMainWrapper {
+    width: 14rem !important;
+    height: 14rem !important;
+  }
+
+  .TextWrapper {
+    font-size: 0.8rem !important;
+  }
+
+  .Exp-Header-Text {
+    font-size: 1.2rem !important;
+  }
+
+  .Exp-Cards {
+    grid-template-columns: 1fr !important;
+  }
+
+  .Exp-Card-Header {
+    font-size: 0.9rem !important;
+    font-weight: 300 !important;
+  }
+
+  .Exp-Card-Body {
+    font-size: 0.8rem !important;
+  }
+
+  .Skill-Header {
+    font-size: 1.2rem !important;
+  }
+
+  .Skills-Wrapper {
+    grid-template-columns: 1fr !important;
+  }
+
+  #Skill-Block {
+    padding: 1rem !important;
+  }
+
+  .Skill-Logo-Wrapper {
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    border-radius: 5px !important;
+  }
+
+  .Skill-Logo {
+    height: 2rem !important;
+    width: 2rem !important;
+  }
+
+  .Skill-Level {
+    height: 0.7rem !important;
+    width: 15rem !important;
+    padding-left: 0rem !important;
+  }
+
+  #AboutWrapper {
+    min-height: 0 !important;
+    margin-bottom: 10rem !important;
+  }
+
+  .AboutMain {
+    padding: 1rem 2.5rem 2.5rem 2.5rem !important;
+  }
+
+  .AboutHeader {
+    font-size: 1.2rem !important;
+  }
+
+  .AboutTextWrapper {
+    letter-spacing: 0.15em !important;
+    font-size: 0.9rem !important;
+  }
+
+  #Contact-Wrapper {
+    margin-top: 2rem;
+    gap: 0.5rem !important;
+  }
+
+  .Contact-Text {
+    font-size: 0.9rem !important;
+  }
+
+  .Contact-Icons-Wrapper {
+    gap: 0.5rem !important;
+  }
+
+  .Contact-Icon-Wrapper {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+
+  .Contact-Icon {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+
+  .TopWrapper {
+    height: 4rem !important;
+  }
+
+  .Top-Left-Logo {
+    height: 2rem !important;
+  }
+
+  .Top-Right-Wrapper {
+    display: none;
+  }
+
+  .Top-Header {
+    border-bottom: 1px solid black;
+    padding: 0.1rem !important;
+    width: 80%;
+    align-items: center !important;
+  }
+}
