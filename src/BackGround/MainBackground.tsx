@@ -70,7 +70,7 @@ function Vercel(props: VercelProps) {
   const edgesGeometry = new THREE.EdgesGeometry(cylinder);
   const edgesMaterial = new THREE.LineBasicMaterial({
     color: "black",
-    linewidth: 5,
+    linewidth: 2,
   });
 
   return (
@@ -135,7 +135,7 @@ function Pmndrs(props: PmndrsProps) {
   );
   const edgesMaterial = new THREE.LineBasicMaterial({
     color: "black",
-    linewidth: 5,
+    linewidth: 2,
   });
 
   return (
