@@ -45,7 +45,10 @@ const Skill: React.FC = () => {
   }, []);
 
   return (
-    <div id="Skill-Block" className="mb-5">
+    <div
+      id="Skill-Block"
+      className="mb-5  flex flex-wrap content-center justify-center flex-col gap-10"
+    >
       <div className="Skill-Header flex flex-wrap content-center justify-center z-1 p-n">
         SKILLS
       </div>

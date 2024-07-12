@@ -5,7 +5,7 @@ function About() {
   return (
     <div
       id="AboutWrapper"
-      className="flex content-center justify-center p-n z-1"
+      className="flex flex-wrap content-center justify-center p-n z-1"
     >
       <div className="AboutMain z-1 flex content-center justify-start gap-6">
         <h1 className="AboutHeader z-1 flex content-center justify-center">

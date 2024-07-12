@@ -113,36 +113,36 @@ const Top: React.FC = () => {
 
           <div
             ref={navRef}
-            className={`NavSmallViewPort flex content-center pt-3 justify-start gap-5 uppercase tracking-widest ${
+            className={`NavSmallViewPort flex content-center pt-3 justify-start gap-2 uppercase tracking-widest ${
               menuOpened ? "opened" : "hidden"
             }`}
           >
             <a
-              className="flex content-center justify-center underline"
+              className="flex content-center justify-center "
               href="#HomeWrapper"
             >
               Introduction
             </a>
             <a
-              className="flex content-center justify-center underline"
+              className="flex content-center justify-center "
               href="#AboutWrapper"
             >
               About
             </a>
             <a
-              className="flex content-center justify-center underline"
+              className="flex content-center justify-center "
               href="#Exps-Wrapper"
             >
               Experiences
             </a>
             <a
-              className="flex content-center justify-center underline"
+              className="flex content-center justify-center "
               href="#Skill-Block"
             >
               Skills
             </a>
             <a
-              className="flex content-center justify-center underline"
+              className="flex content-center justify-center "
               href="#Contact-Wrapper"
             >
               Contact

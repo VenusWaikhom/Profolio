@@ -12,7 +12,7 @@ const Introduction = () => {
         <h1 className="MainHeader flex content-start justify-center flex-col">
           <div>
             Hi, my name is&nbsp;
-            <span style={{ color: "#00ff00", textTransform: "uppercase" }}>
+            <span style={{ color: "#429EA6", textTransform: "uppercase" }}>
               Venus Waikhom
             </span>
           </div>
@@ -23,7 +23,7 @@ const Introduction = () => {
               typeSpeed={50}
               showCursor
               loop
-              style={{ color: "#80FF00", textDecoration: "underline" }}
+              style={{ color: "#824C71", textDecoration: "underline" }}
               strings={[
                 "MERN stack developer",
                 "Front-End Developer",
@@ -37,7 +37,7 @@ const Introduction = () => {
       </div>
       <div className=" flex content-center justify-center flex-wrap">
         <div className="ImageMainWrapper flex content-center justify-center flex-wrap p-n z-1">
-          <img src="/Images/apo_white_2.png" alt="Profile Pic" />
+          {/* <img src="/Images/apo_white_2.png" alt="Profile Pic" /> */}
         </div>
       </div>
     </div>

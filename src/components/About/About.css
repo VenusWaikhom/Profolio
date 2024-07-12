@@ -4,23 +4,26 @@
 
 .AboutMain {
   flex-direction: column;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  background-color: #124559de;
+  color: white;
   width: 70%;
   height: 70%;
   padding: 2rem 5rem 5rem 5rem;
   border-radius: 30px;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .AboutHeader {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: ui-serif;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   text-decoration: underline;
-  letter-spacing: 0.3em;
 }
 
 .AboutTextWrapper {
+  font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.5em;
   letter-spacing: 0.1em;

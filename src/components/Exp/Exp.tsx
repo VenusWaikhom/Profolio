@@ -30,7 +30,7 @@ function Exp() {
   return (
     <div
       id="Exps-Wrapper"
-      className="flex flex-wrap content-center justify-center Exps-Wrapper"
+      className="flex flex-wrap content-center justify-center Exps-Wrapper gap-10"
     >
       <div className="Exp-Header-Text z-1 flex flex-wrap content-center justify-center p-n">
         Professional Experiences
