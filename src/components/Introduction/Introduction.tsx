@@ -37,7 +37,7 @@ const Introduction = () => {
       </div>
       <div className=" flex content-center justify-center flex-wrap">
         <div className="ImageMainWrapper flex content-center justify-center flex-wrap p-n z-1">
-          {/* <img src="/Images/apo_white_2.png" alt="Profile Pic" /> */}
+          <img src="/Images/apo_white_2.png" alt="Profile Pic" />
         </div>
       </div>
     </div>
