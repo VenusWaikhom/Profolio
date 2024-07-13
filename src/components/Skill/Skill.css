@@ -18,6 +18,12 @@
   row-gap: 1rem;
   column-gap: 5rem;
   align-items: flex-start;
+  /* background: rgb(130, 76, 113);
+  background: linear-gradient(
+    0deg,
+    rgba(130, 76, 113, 0.9051995798319328) 0%,
+    rgba(130, 76, 113, 0) 100%
+  ); */
 }
 
 .SkillChartWrapper {
