@@ -58,14 +58,6 @@
   border: 1px solid rgb(102, 100, 100);
 }
 
-.Skill-Level-HTML {
-  background-color: #e34c26;
-}
-
-.Skill-Level-CSS {
-  background-color: #264de4;
-}
-
 .Skill-Level-Javascript {
   background-color: #f0db4f;
 }
@@ -83,7 +75,19 @@
 }
 
 .Skill-Level-Python {
-  background-color: #0b5d83;
+  background-color: #ffd43b;
+}
+
+.Skill-Level-MYSQL {
+  background-color: #f29111;
+}
+
+.Skill-Level-C {
+  background-color: #165caa;
+}
+
+.Skill-Level-Cp {
+  background-color: #256794;
 }
 
 .Skill-Level > div {
