@@ -14,4 +14,14 @@ export const ExpItems = [
     text: "Practice Of E-commerse API",
     link: "https://github.com/VenusWaikhom/Traning_Ecom-API",
   },
+  {
+    name: "Attendance DAPP",
+    text: "Intern Project on the development decentralize application based on Attendance system",
+    link: "https://github.com/VenusWaikhom/Traning_Ecom-API",
+  },
+  {
+    name: "TODO list DAPP",
+    text: "Intern Project on the development of decentralize application based on TODO list",
+    link: "https://github.com/VenusWaikhom/Traning_Ecom-API",
+  },
 ];

@@ -94,6 +94,10 @@
   background-color: #256794;
 }
 
+.Skill-Level-Solidity {
+  background-color: #2e4053;
+}
+
 .Skill-Level > div {
   transition: width 1s ease-in-out;
   height: 100%;

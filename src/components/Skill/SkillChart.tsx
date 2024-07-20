@@ -14,4 +14,5 @@ export const SkillChart: SkillChartItem[] = [
   { name: "C", icon: "/Images/C.png", Level: "60%" },
   { name: "Cp", icon: "/Images/C++.png", Level: "60%" },
   { name: "Python", icon: "/Images/python.png", Level: "60%" },
+  { name: "Solidity", icon: "/Images/Solidity.png", Level: "50%" },
 ];
